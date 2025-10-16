@@ -1,9 +1,0 @@
-file_path: /home/cyber/lab/evasive-angr/samples/injection_mock_pe.exe
-file_name: injection_mock_pe.exe
-file_size: 241808
-file_type: PE
-md5: 391f21e02d6b0f607d651758e4d2dc57
-sha1: d41b292049a671350319f367c2ee671cc2e8b4db
-sha256: 34c87be9d0e15a4a09f58915a03915e4fe3a6811cd949eaf340db74f4194f5df
-dang_api_count: 15
-dangerous_apis: GetProcAddress, LoadLibraryA, VirtualProtect, __FindPESectionExec, ___mingw_GetSectionCount, ___mingw_GetSectionForAddress, ___mingw_printf, _calloc, _fprintf, _malloc, _vfprintf, calloc, fprintf, malloc, vfprintf
