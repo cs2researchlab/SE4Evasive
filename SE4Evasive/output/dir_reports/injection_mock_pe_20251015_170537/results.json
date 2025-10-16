@@ -1,0 +1,1036 @@
+{
+  "binary": "/home/cyber/lab/evasive-angr/samples/test/injection_mock_pe.exe",
+  "binary_name": "injection_mock_pe.exe",
+  "binary_size": 242284,
+  "timestamp": "2025-10-15T17:05:37.988345",
+  "statistics": {
+    "paths_explored": 5,
+    "states_analyzed": 5,
+    "constraints_solved": 0,
+    "time_elapsed": 22.465529,
+    "functions_discovered": 537,
+    "basic_blocks": 2435,
+    "code_coverage": 8.172484599589321
+  },
+  "vulnerabilities": {
+    "buffer_overflow": [
+      {
+        "address": "0x401010",
+        "register": "<BV32 reg_eax_244_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401054",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401062",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401077",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401120",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401970",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401990",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4022f0",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4022fd",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x40113c",
+        "register": "<BV32 unconstrained_ret_SetUnhandledExceptionFilter_252_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4088c0",
+        "register": "<BV32 unconstrained_ret_SetUnhandledExceptionFilter_252_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4011ef",
+        "register": "<BV32 unconstrained_ret___set_app_type_253_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408930",
+        "register": "<BV32 unconstrained_ret___set_app_type_253_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x500054",
+        "register": "<BV32 unconstrained_ret___set_app_type_253_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4014a2",
+        "register": "<BV32 unconstrained_ret_atexit_256_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4015e7",
+        "register": "<BV32 unconstrained_ret_atexit_256_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4015ec",
+        "register": "<BV32 unconstrained_ret_atexit_256_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4015f8",
+        "register": "<BV32 unconstrained_ret_atexit_257_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401389",
+        "register": "<BV32 unconstrained_ret_atexit_257_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x40108e",
+        "register": "<BV32 unconstrained_ret_atexit_257_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401320",
+        "register": "<BV32 unconstrained_ret_atexit_257_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4010c3",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4014f0",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401639",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401506",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x401514",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x500014",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x40152f",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x40154a",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x402570",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4088f0",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408910",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x500044",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4088f8",
+        "register": "<BV32 unconstrained_ret___p__iob_259_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x402584",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4087d0",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4087e4",
+        "register": "<BV32 unconstrained_ret___p__iob_260_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4087e8",
+        "register": "<BV32 unconstrained_ret___p__iob_260_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4087f4",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_261_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408810",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_261_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x40881c",
+        "register": "<BV32 unconstrained_ret___p__iob_262_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408968",
+        "register": "<BV32 0x10 + (0x20 + unconstrained_ret___p__iob_259_32 + 0xffffffff * unconstrained_ret___p__iob_262_32 >> 0x5)>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x500070",
+        "register": "<BV32 0x10 + (0x20 + unconstrained_ret___p__iob_259_32 + 0xffffffff * unconstrained_ret___p__iob_262_32 >> 0x5)>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408830",
+        "register": "<BV32 unconstrained_ret__lock_263_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x40258c",
+        "register": "<BV32 unconstrained_ret__lock_263_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x402598",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x404530",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408958",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x500068",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x40454d",
+        "register": "<BV32 unconstrained_ret__errno_266_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4046a0",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4089a8",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x500090",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4046ac",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x40461f",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x40463f",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x40466b",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x402cc0",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x402ccc",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x402ca3",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x402cd9",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x402d3a",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x404a22",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x404629",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x404740",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4025ca",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_270_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408840",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_270_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408854",
+        "register": "<BV32 unconstrained_ret___p__iob_271_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408868",
+        "register": "<BV32 unconstrained_ret___p__iob_271_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x500020",
+        "register": "<BV32 unconstrained_ret___p__iob_271_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408874",
+        "register": "<BV32 unconstrained_ret___p__iob_271_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4025d2",
+        "register": "<BV32 unconstrained_ret___p__iob_271_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408858",
+        "register": "<BV32 unconstrained_ret___p__iob_271_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408864",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_272_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408880",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_272_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408893",
+        "register": "<BV32 unconstrained_ret___p__iob_274_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408970",
+        "register": "<BV32 unconstrained_ret___p__iob_274_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x500074",
+        "register": "<BV32 unconstrained_ret___p__iob_274_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x4087f8",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_261_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x500004",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_261_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      },
+      {
+        "address": "0x408804",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_261_32>",
+        "description": "Symbolic pointer could overflow buffer bounds"
+      }
+    ],
+    "format_string": [
+      {
+        "address": "0x401010",
+        "description": "Symbolic format string argument"
+      }
+    ],
+    "null_deref": [
+      {
+        "address": "0x401010",
+        "register": "<BV32 reg_eax_244_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401010",
+        "register": "<BV32 reg_ebx_245_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401010",
+        "register": "<BV32 reg_ecx_246_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401010",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401054",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401062",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401077",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401120",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401970",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401990",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4022f0",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4022fd",
+        "register": "<BV32 reg_edx_247_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x40113c",
+        "register": "<BV32 unconstrained_ret_SetUnhandledExceptionFilter_252_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4088c0",
+        "register": "<BV32 unconstrained_ret_SetUnhandledExceptionFilter_252_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4011ef",
+        "register": "<BV32 unconstrained_ret___set_app_type_253_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408930",
+        "register": "<BV32 unconstrained_ret___set_app_type_253_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x500054",
+        "register": "<BV32 unconstrained_ret___set_app_type_253_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4014a2",
+        "register": "<BV32 unconstrained_ret_atexit_256_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4015e7",
+        "register": "<BV32 unconstrained_ret_atexit_256_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4015ec",
+        "register": "<BV32 unconstrained_ret_atexit_256_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4015f8",
+        "register": "<BV32 unconstrained_ret_atexit_257_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401389",
+        "register": "<BV32 unconstrained_ret_atexit_257_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x40108e",
+        "register": "<BV32 unconstrained_ret_atexit_257_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x401320",
+        "register": "<BV32 unconstrained_ret_atexit_257_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4010c3",
+        "register": "<BV32 unconstrained_ret___p___initenv_258_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4088f8",
+        "register": "<BV32 unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x402584",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4087d0",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4087e4",
+        "register": "<BV32 unconstrained_ret___p__iob_260_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4087e4",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4087e8",
+        "register": "<BV32 unconstrained_ret___p__iob_260_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4087e8",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4087f4",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_261_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4087f4",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408810",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_261_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408810",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x40881c",
+        "register": "<BV32 unconstrained_ret___p__iob_262_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x40881c",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408968",
+        "register": "<BV32 0x10 + (0x20 + unconstrained_ret___p__iob_259_32 + 0xffffffff * unconstrained_ret___p__iob_262_32 >> 0x5)>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408968",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408968",
+        "register": "<BV32 unconstrained_ret___p__iob_262_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x500070",
+        "register": "<BV32 0x10 + (0x20 + unconstrained_ret___p__iob_259_32 + 0xffffffff * unconstrained_ret___p__iob_262_32 >> 0x5)>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x500070",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x500070",
+        "register": "<BV32 unconstrained_ret___p__iob_262_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408830",
+        "register": "<BV32 unconstrained_ret__lock_263_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408830",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408830",
+        "register": "<BV32 unconstrained_ret___p__iob_262_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x40258c",
+        "register": "<BV32 unconstrained_ret__lock_263_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x40258c",
+        "register": "<BV32 unconstrained_ret___p__iob_262_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x402598",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x404530",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408958",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x500068",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_265_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x40454d",
+        "register": "<BV32 unconstrained_ret__errno_266_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4025ca",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_270_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408840",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_270_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408854",
+        "register": "<BV32 unconstrained_ret___p__iob_271_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408854",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_270_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408868",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_270_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x500020",
+        "register": "<BV32 0x40 + unconstrained_ret___p__iob_270_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408874",
+        "register": "<BV32 0x40 + unconstrained_ret___p__iob_270_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408858",
+        "register": "<BV32 unconstrained_ret___p__iob_271_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408858",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_270_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408864",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_272_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408864",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_270_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408880",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_272_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408880",
+        "register": "<BV32 0x20 + unconstrained_ret___p__iob_270_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408893",
+        "register": "<BV32 unconstrained_ret___p__iob_274_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408970",
+        "register": "<BV32 unconstrained_ret___p__iob_274_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x500074",
+        "register": "<BV32 unconstrained_ret___p__iob_274_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x4087f8",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_261_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x500004",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_261_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x500004",
+        "register": "<BV32 0x40 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408804",
+        "register": "<BV32 0x260 + unconstrained_ret___p__iob_261_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      },
+      {
+        "address": "0x408804",
+        "register": "<BV32 0x40 + unconstrained_ret___p__iob_259_32>",
+        "description": "Register can be NULL and may be dereferenced"
+      }
+    ]
+  },
+  "dangerous_functions": [
+    {
+      "name": "___mingw_GetSectionForAddress",
+      "address": "0x402270",
+      "type": "gets",
+      "category": "string"
+    },
+    {
+      "name": "___mingw_GetSectionCount",
+      "address": "0x4022f0",
+      "type": "gets",
+      "category": "string"
+    },
+    {
+      "name": "__FindPESectionExec",
+      "address": "0x402330",
+      "type": "exec",
+      "category": "process"
+    },
+    {
+      "name": "___mingw_printf",
+      "address": "0x402570",
+      "type": "printf",
+      "category": "format"
+    },
+    {
+      "name": "_calloc",
+      "address": "0x408990",
+      "type": "calloc",
+      "category": "memory"
+    },
+    {
+      "name": "_fprintf",
+      "address": "0x4089a0",
+      "type": "printf",
+      "category": "format"
+    },
+    {
+      "name": "_fprintf",
+      "address": "0x4089a0",
+      "type": "fprintf",
+      "category": "format"
+    },
+    {
+      "name": "_malloc",
+      "address": "0x4089c0",
+      "type": "malloc",
+      "category": "memory"
+    },
+    {
+      "name": "_vfprintf",
+      "address": "0x408a00",
+      "type": "printf",
+      "category": "format"
+    },
+    {
+      "name": "_vfprintf",
+      "address": "0x408a00",
+      "type": "fprintf",
+      "category": "format"
+    },
+    {
+      "name": "_vfprintf",
+      "address": "0x408a00",
+      "type": "vfprintf",
+      "category": "format"
+    },
+    {
+      "name": "GetProcAddress",
+      "address": "0x500014",
+      "type": "GetProcAddress",
+      "category": "library"
+    },
+    {
+      "name": "LoadLibraryA",
+      "address": "0x500024",
+      "type": "LoadLibrary",
+      "category": "library"
+    },
+    {
+      "name": "VirtualProtect",
+      "address": "0x500038",
+      "type": "VirtualProtect",
+      "category": "memory"
+    },
+    {
+      "name": "calloc",
+      "address": "0x500084",
+      "type": "calloc",
+      "category": "memory"
+    },
+    {
+      "name": "fprintf",
+      "address": "0x50008c",
+      "type": "printf",
+      "category": "format"
+    },
+    {
+      "name": "fprintf",
+      "address": "0x50008c",
+      "type": "fprintf",
+      "category": "format"
+    },
+    {
+      "name": "malloc",
+      "address": "0x50009c",
+      "type": "malloc",
+      "category": "memory"
+    },
+    {
+      "name": "vfprintf",
+      "address": "0x5000bc",
+      "type": "printf",
+      "category": "format"
+    },
+    {
+      "name": "vfprintf",
+      "address": "0x5000bc",
+      "type": "fprintf",
+      "category": "format"
+    },
+    {
+      "name": "vfprintf",
+      "address": "0x5000bc",
+      "type": "vfprintf",
+      "category": "format"
+    }
+  ],
+  "anti_analysis": [],
+  "taint_analysis": {
+    "sinks_found": 0,
+    "tainted_sinks": [],
+    "data_flows": [],
+    "taint_sources": []
+  },
+  "exploit_candidates": [],
+  "constraints_sample": [
+    {
+      "address": "0x4014f0",
+      "num_constraints": 2,
+      "constraints": [
+        "<Bool unconstrained_ret___p___initenv_258_32 <= 0xffffffff>",
+        "<Bool unconstrained_ret___p___initenv_258_32 == 0xffffffff>"
+      ]
+    },
+    {
+      "address": "0x401630",
+      "num_constraints": 2,
+      "constraints": [
+        "<Bool unconstrained_ret___p___initenv_258_32 <= 0xffffffff>",
+        "<Bool unconstrained_ret___p___initenv_258_32 == 0xffffffff>"
+      ]
+    },
+    {
+      "address": "0x401639",
+      "num_constraints": 2,
+      "constraints": [
+        "<Bool unconstrained_ret___p___initenv_258_32 <= 0xffffffff>",
+        "<Bool unconstrained_ret___p___initenv_258_32 == 0xffffffff>"
+      ]
+    },
+    {
+      "address": "0x401506",
+      "num_constraints": 2,
+      "constraints": [
+        "<Bool unconstrained_ret___p___initenv_258_32 <= 0xffffffff>",
+        "<Bool unconstrained_ret___p___initenv_258_32 == 0xffffffff>"
+      ]
+    },
+    {
+      "address": "0x500010",
+      "num_constraints": 2,
+      "constraints": [
+        "<Bool unconstrained_ret___p___initenv_258_32 <= 0xffffffff>",
+        "<Bool unconstrained_ret___p___initenv_258_32 == 0xffffffff>"
+      ]
+    },
+    {
+      "address": "0x401514",
+      "num_constraints": 2,
+      "constraints": [
+        "<Bool unconstrained_ret___p___initenv_258_32 <= 0xffffffff>",
+        "<Bool unconstrained_ret___p___initenv_258_32 == 0xffffffff>"
+      ]
+    },
+    {
+      "address": "0x500014",
+      "num_constraints": 2,
+      "constraints": [
+        "<Bool unconstrained_ret___p___initenv_258_32 <= 0xffffffff>",
+        "<Bool unconstrained_ret___p___initenv_258_32 == 0xffffffff>"
+      ]
+    },
+    {
+      "address": "0x40152f",
+      "num_constraints": 2,
+      "constraints": [
+        "<Bool unconstrained_ret___p___initenv_258_32 <= 0xffffffff>",
+        "<Bool unconstrained_ret___p___initenv_258_32 == 0xffffffff>"
+      ]
+    },
+    {
+      "address": "0x500014",
+      "num_constraints": 2,
+      "constraints": [
+        "<Bool unconstrained_ret___p___initenv_258_32 <= 0xffffffff>",
+        "<Bool unconstrained_ret___p___initenv_258_32 == 0xffffffff>"
+      ]
+    },
+    {
+      "address": "0x40154a",
+      "num_constraints": 2,
+      "constraints": [
+        "<Bool unconstrained_ret___p___initenv_258_32 <= 0xffffffff>",
+        "<Bool unconstrained_ret___p___initenv_258_32 == 0xffffffff>"
+      ]
+    }
+  ],
+  "coverage": {
+    "percentage": 8.172484599589321,
+    "addresses_hit": 199,
+    "total_blocks": 2435
+  },
+  "paths_summary": {
+    "records_logged": 1310,
+    "unique_bb_hashes": 4,
+    "avg_bb_count": 555.5328244274809
+  },
+  "payload_found": false
+}
