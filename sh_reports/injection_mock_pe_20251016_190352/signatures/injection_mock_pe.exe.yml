@@ -1,0 +1,21 @@
+title: SymbolicHunter - Execution of injection_mock_pe.exe
+id: 8a96cbc9-ff20-4f87-a018-71b1b2eb4478
+status: experimental
+description: Detects execution of a known suspicious binary identified by SymbolicHunter analysis
+author: SymbolicHunter
+date: 2025-10-16
+references: []
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_hash1:
+    Hashes|contains: "34c87be9d0e15a4a09f58915a03915e4fe3a6811cd949eaf340db74f4194f5df"
+  selection_hash2:
+    sha256: "34c87be9d0e15a4a09f58915a03915e4fe3a6811cd949eaf340db74f4194f5df"
+  selection_name:
+    Image|endswith: "\injection_mock_pe.exe"
+  condition: 1 of selection_*
+falsepositives:
+  - Unlikely
+level: high
